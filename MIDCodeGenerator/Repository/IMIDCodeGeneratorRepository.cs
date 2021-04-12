@@ -1,12 +1,13 @@
-﻿using System;
+﻿using MIDCodeGenerator.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
 namespace MIDCodeGenerator.Repository
 {
-    interface IMIDCodeGeneratorRepository
+    public interface IMIDCodeGeneratorRepository
     {
-        void GenerareMIDCodes();
+        Task<MIDCodeDetails> GenerareMIDCodes(string xml);
     }
 }

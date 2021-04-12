@@ -1,24 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "D:\\SIAIMID_PROJECT\\SIAIMID\\MIDCodeGenerator\\MIDCodeGenerator.csproj": {}
+    "D:\\Projects\\SIAI MID Derivation\\SIAI MID Code Generator\\MIDCodeGenerator\\MIDCodeGenerator.csproj": {}
   },
   "projects": {
-    "D:\\SIAIMID_PROJECT\\SIAIMID\\MIDCodeGenerator\\MIDCodeGenerator.csproj": {
+    "D:\\Projects\\SIAI MID Derivation\\SIAI MID Code Generator\\MIDCodeGenerator\\MIDCodeGenerator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SIAIMID_PROJECT\\SIAIMID\\MIDCodeGenerator\\MIDCodeGenerator.csproj",
+        "projectUniqueName": "D:\\Projects\\SIAI MID Derivation\\SIAI MID Code Generator\\MIDCodeGenerator\\MIDCodeGenerator.csproj",
         "projectName": "MIDCodeGenerator",
-        "projectPath": "D:\\SIAIMID_PROJECT\\SIAIMID\\MIDCodeGenerator\\MIDCodeGenerator.csproj",
-        "packagesPath": "C:\\Users\\sandip.patil\\.nuget\\packages\\",
-        "outputPath": "D:\\SIAIMID_PROJECT\\SIAIMID\\MIDCodeGenerator\\obj\\",
+        "projectPath": "D:\\Projects\\SIAI MID Derivation\\SIAI MID Code Generator\\MIDCodeGenerator\\MIDCodeGenerator.csproj",
+        "packagesPath": "C:\\Users\\vishal.dhure\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\SIAI MID Derivation\\SIAI MID Code Generator\\MIDCodeGenerator\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\sandip.patil\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\vishal.dhure\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -60,6 +63,14 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
             }
           },
           "imports": [
@@ -80,7 +91,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
